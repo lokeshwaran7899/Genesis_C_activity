@@ -14,10 +14,10 @@ int main()
 
 void fib(int aj)
 {
-    static long int first = 0, second = 1;
-    if(aj > 1)
+     if(aj > 1)
     {
-        long int sum = first + second;
+        static long int first = 0, second = 1, sum;
+        sum = first + second;
         first = second;
         second = sum;
         printf("%ld ", sum);
