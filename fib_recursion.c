@@ -3,7 +3,7 @@
 void fib(int );
 int main()
 {
-    int k, n;
+    int n;
     long int i = 0, j = 1;
     printf("number of terms: ");
     scanf("%d", &n);
