@@ -6,7 +6,7 @@ int main()
     int n;
     printf("number of terms: ");
     scanf("%d", &n);
-    printf("\nSeries\t",n);
+    printf("\nSeries\t");
     printf("%d ", 1);
     fib(n);
     return 0;
